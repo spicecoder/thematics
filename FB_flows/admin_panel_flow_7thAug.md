@@ -2,7 +2,7 @@
 
         The user logs in with their credentials (i.e., email and password).
 
-        Upon successful verification of these credentials against the database, the server generates a refresh token and sends it back to the client. This refresh token has a relatively long lifetime (e.g., 7 days).
+        Upon successful verification of these credentials against the database, the server generates a refresh token (thru jwt) and sends it back to the client. This refresh token has a relatively long lifetime (e.g., 7 days).
 
         The server doesn't  send an access token immediately upon login. Instead, the client has to use the /refresh_token endpoint to get an access token.
 
