@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Simulate a CSS file being loaded and parsed */
+:root {
+    --loaded-color: green;
+}
+
+h1 {
+    color: var(--loaded-color);
+}
